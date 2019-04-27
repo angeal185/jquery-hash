@@ -1,8 +1,8 @@
 {
   "name": "jquery-hash",
   "version": "1.0.0",
-  "description": "jQuery plugin to return a hash for a string using SHA 1/256/384/512",
-  "main": "index.js",
+  "description": "jQuery plugin to return a hash for a string using SHA 1/256/384/512 and the web crypto api",
+  "main": "./dist/jq-hash.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/angeal185/jquery-hash.git"
   },
-  "keywords": [],
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "sha1",
+    "sha256",
+    "sha512",
+    "sha384",
+    "hex",
+    "base64",
+    "hash",
+    "webcrypto",
+    "webcrypto-api"
+],
   "author": "ben eaves",
   "license": "MIT",
   "bugs": {
